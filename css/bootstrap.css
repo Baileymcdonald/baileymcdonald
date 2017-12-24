@@ -3592,16 +3592,12 @@ tbody.collapse.show {
 }
 
 .navbar {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  padding: 0.5rem 1rem;
+  overflow: hidden;
+      background-color: #333;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+
 }
 
 .navbar > .container,
@@ -3758,7 +3754,7 @@ tbody.collapse.show {
         flex-direction: row;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
-    position: absolute;
+    position: fixed;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu-right {
     right: 0;
