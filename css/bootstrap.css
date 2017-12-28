@@ -44,7 +44,7 @@
   }
   a,
   a:visited {
-    text-decoration: underline;
+    color:white;
   }
   abbr[title]::after {
     content: " (" attr(title) ")";
@@ -226,8 +226,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: white;
+
 }
 
 a:not([href]):not([tabindex]) {
